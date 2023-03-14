@@ -9,9 +9,9 @@
 
 
     <EditText
-        android:id="@+id/edText"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:id="@+id/etText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
 
     <requestFocus>
 
@@ -26,22 +26,18 @@
 
         <Button
             android:id="@+id/btnSave"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:text="Save"/>
 
         <Button
             android:id="@+id/btnLoad"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:text="Load"/>
 
     </LinearLayout>
-
-
-
-
-
-
 
 </LinearLayout>
